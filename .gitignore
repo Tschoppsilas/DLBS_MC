@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Daten & Modelle (gross, reproduzierbar)
+02_Code/data/*
+02_Code/outputs/*
+!02_Code/data/.gitkeep
+!02_Code/outputs/.gitkeep
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.pth
+runs/
+logs/
+lightning_logs/
+wandb/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/
+
+# Secrets
+.env

@@ -1,0 +1,13 @@
+# Referenz; das Env "dlbs" enthält bereits alles davon
+tensorflow==2.11.*
+numpy==1.26.*
+pandas
+matplotlib
+jupyterlab
+nbconvert
+roboflow
+ultralytics
+torch
+torchvision
+python-dotenv
+opencv-python<4.11
